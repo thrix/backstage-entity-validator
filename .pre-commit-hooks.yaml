@@ -1,0 +1,6 @@
+- id: backstage-entity-validator
+  name: Backstage Entity Validator
+  description: Validates Backstage entity files to ensure they conform to the expected schema.
+  entry: npm exec validate-entity
+  language: node
+  files: catalog-info\.yaml$
